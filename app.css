@@ -1,0 +1,120 @@
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.wrapper {
+    box-shadow: 1px -5px 25px hsl(0, 0%, 63%);
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 637px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*align-items: center;*/
+}
+h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 30px;
+}
+.white-block {
+    font-size: 0.95rem;
+    padding: 45px 80px 45px 40px;
+    color: hsl(0, 0%, 63%);
+    
+}
+.color-block {
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+}
+.light-color-block {
+    width: 50%;
+    background-color: hsl(179, 62%, 70%);
+}
+.white-block h2 {
+    padding: 0 40px 0px 0;
+    margin-bottom: 20px;
+    color: hsl(71, 73%, 54%);
+}
+h2 {
+    padding: 45px 40px 25px 40px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+p {
+    line-height: 20px;
+}
+.light-color-block p {
+    padding: 0 40px 43px 40px;
+    font-size: 0.9rem;
+}
+.color-block p {
+    line-height: 30px;
+    padding: 0 40px 30px 40px;
+}
+.pariod {
+    color: hsl(179, 62%, 70%);
+}
+.price {
+    font-weight: 700;
+    font-size: 2rem;
+}
+button {
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    padding: 20px 90px 15px 90px;
+    margin: 0 40px 43px 40px;
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper {
+        flex-direction: column;
+        max-width: 311px;
+    }
+    .color-block {
+        width: 100%;
+    }
+    .light-color-block {
+        width: 100%;
+    }
+    .white-block {
+        font-size: 0.85rem;
+        padding: 30px 25px 40px 25px;
+    }
+    h2 {
+        padding: 30px 25px 25px 25px;
+        font-size: 0.91rem;
+    }
+    .light-color-block p {
+        padding: 0 25px 30px 25px;
+        font-size: 0.85rem;
+    }
+    .color-block p {
+        line-height: 30px;
+        padding: 0 25px 20px 25px;
+    }
+    button {
+        border-radius: 5px;
+        font-size: 14px;
+        padding: 20px 104px 15px 105px;
+        margin: 0 25px 25px 25px;
+    }
+}
